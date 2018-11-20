@@ -125,7 +125,7 @@ class Minutnik : AppCompatActivity() {
                     //deprecated in API 26
                     v.vibrate(1000)
                 }
-                toast("Kuniec")
+                toast("Odliczanie skończone")
 
                 mp?.start() // no need to call prepare(); create() does that for you
             }

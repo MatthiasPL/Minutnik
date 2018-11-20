@@ -2,10 +2,10 @@ package com.example.mateuszsiedlarz.minutnik
 
 class Time (TenMin: Int, OneMin: Int, TenSec: Int, OneSec: Int) {
 
-    var oneSec=OneSec;
-    var tenSec=TenSec;
-    var oneMin=OneMin;
-    var tenMin=TenMin;
+    var oneSec=OneSec
+    var tenSec=TenSec
+    var oneMin=OneMin
+    var tenMin=TenMin
 
     fun addOneSec(){
         if(oneSec>=9){
